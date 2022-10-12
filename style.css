@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(/img/banner-bg.jpg);
+}
+.box1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.inputBox input{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+    color: white;
+    padding: 14px 20px;
+    padding-right: 40px;
+}
+.inputBox input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.inputBox .fa-facebook{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+    color: white;
+    padding: 10px 15px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+.inputBox .fa-youtube{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+    color: white;
+    padding: 10px 15px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+.inputBox .fa-instagram{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+    color: white;
+    padding: 10px 15px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+.hey{
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.button{
+    width: 30%;
+    background: yellow;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.box-1{
+    width: 56%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    padding: 40px 5px;
+}
+.box2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(white);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.class1{
+    width: 45%;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+.class2{
+    width: 45%;
+    padding: 5px 5px 5px 5px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+.class3{
+    width:45%;
+    padding: 5px 5px 5px 5px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+.class4{
+    width: 45%;
+    padding: 5px 5px 5px 5px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+.input{
+    border: none;
+   background: #ccc;
+   padding: 9px 0px;
+}
+.span{
+    flex-direction: row;
+    padding: 1px 1px 1px 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+.radio{
+    margin-right: 15px;
+}
+.button1{
+    width: 30%;
+    background: yellow;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.container-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.monday{
+    width: 20%;
+    background: rgb(29, 47, 29);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+.tuesday{
+    width: 20%;
+    background: rgb(29, 47, 29);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+.wednesday{
+    width: 20%;
+    background: rgb(29, 47, 29);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+.thursday{
+    width: 20%;
+    background: rgb(29, 47, 29);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+.friday{
+    width: 20%;
+    background: yellow;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+.ofada{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.weather{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background: url(/img/weather-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.A{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+    justify-content: center;
+    padding: 40px 9px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+.A h3{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+.A img{
+    margin-bottom: 30px;
+}
+.A p{
+    color: white;
+    padding-bottom: 40px;
+}
+.B{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.C{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.small{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #ccc;
+    justify-content: center;
+    padding: 20px;
+}
+
+.c1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c12{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-top: 4px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(155, 148, 148);
+}
+
+.B{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+    justify-content: center;
+    padding: 40px 9px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+.B h3{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+.B img{
+    margin-bottom: 30px;
+}
+.B p{
+    color: white;
+    padding-bottom: 40px;
+}
+.B{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.C{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.small{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #ccc;
+    justify-content: center;
+    padding: 20px;
+}
+
+.c1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c12{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-top: 4px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(155, 148, 148);
+}
+
+.C{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+    justify-content: center;
+    padding: 40px 9px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+.C h3{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+.C img{
+    margin-bottom: 30px;
+}
+.C p{
+    color: white;
+    padding-bottom: 40px;
+}
+.B{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.C{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.small{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #ccc;
+    justify-content: center;
+    padding: 20px;
+}
+
+.c1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c12{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-top: 4px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(155, 148, 148);
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(28, 28, 57);
+    
+    
+}
+.comb{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.comb img{
+    margin-bottom: 30px;
+}
+.comb1{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.comb1 img{
+    margin-bottom: 30px;
+}
+.comb2{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.comb2 img{
+    margin-bottom: 30px;
+}
+.container-8{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.small{
+   text-align: center; 
+   background-color: white; 
+}
+
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+}
